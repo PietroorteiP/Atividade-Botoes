@@ -1,0 +1,31 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 600px;
+}
+
+.dropText {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 220px;
+}
+
+.dropText span {
+    padding: 12px 25px;
+    display: block;
+}
+
+.dropText span img {
+    margin-right: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.dropText span:hover {
+    background-color: lightcyan;
+}
+
+.dropdown:hover .dropText {
+    display: block;
+}
